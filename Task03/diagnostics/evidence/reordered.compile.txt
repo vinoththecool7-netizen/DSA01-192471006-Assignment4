@@ -1,0 +1,11 @@
+Task03/diagnostics/reordered.cpp.txt:22:8: warning: initializer order does not match the declaration order [-Wreorder-ctor]
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |        ^~~~~~~~~~            ~~~~~~~~~~~~
+      |        Person(n, a)          home(c, p)
+Task03/diagnostics/reordered.cpp.txt:22:8: note: field 'home' will be initialized after field 'regNo'
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |        ^~~~~~~~~~
+Task03/diagnostics/reordered.cpp.txt:22:20: note: field 'regNo' will be initialized after base 'Person'
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |                    ^~~~~~~~
+1 warning generated.

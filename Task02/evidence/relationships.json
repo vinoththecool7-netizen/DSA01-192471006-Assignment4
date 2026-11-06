@@ -1,6 +1,6 @@
 {
   "source": "Task02/relationships.cpp",
-  "sha256": "76a78b33521dbd50f4c2d0a6685729453dc269536176a5ee83b5767b8b0db326",
+  "sha256": "fdbce2d5d610eeb91a48f0fcc3957c68c300ee2cf4cb09c0f62def4c7a7ee92e",
   "command": [
     "g++",
     "-std=c++17",
@@ -12,7 +12,7 @@
   ],
   "compile_exit": 0,
   "input": "embedded data; no stdin",
-  "started_utc": "2026-11-06T07:05:25.020083+00:00",
+  "started_utc": "2026-11-06T07:07:25.400101+00:00",
   "run_exit": 0,
   "environment": {}
 }

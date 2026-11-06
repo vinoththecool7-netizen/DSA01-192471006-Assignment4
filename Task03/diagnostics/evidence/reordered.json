@@ -1,0 +1,20 @@
+{
+  "source": "Task03/diagnostics/reordered.cpp.txt",
+  "sha256": "c5a2d27dc8568434e6b2e7cf3e9a018cb2ba238b2626a0d6d00aefa172efcf5f",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-x",
+    "c++",
+    "Task03/diagnostics/reordered.cpp.txt",
+    "-o",
+    ".build/Task03_diagnostics_reordered"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:34.209104+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

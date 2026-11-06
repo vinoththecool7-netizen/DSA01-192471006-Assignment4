@@ -1,0 +1,20 @@
+{
+  "source": "Task03/address_pointer.cpp",
+  "sha256": "072f8e530f902da2bcf88698be089b612b177ce770b3561247389d85d40ce868",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-fsanitize=address",
+    "-g",
+    "Task03/address_pointer.cpp",
+    "-o",
+    ".build/_Task03_address_pointer_asan"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:37.395767+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

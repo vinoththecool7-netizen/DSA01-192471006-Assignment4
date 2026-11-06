@@ -39,6 +39,7 @@ class Student : VIRTUAL public Person {
 public:
  Student(std::string n,int i,std::string p,std::string city,std::string prog,double g,std::string title)
  :Person(n,i,p,city),programme(prog),cgpa(g),course(title) { std::cout << "Student "; }
+ double getCGPA() const { return cgpa; }
  ~Student() override { std::cout << "~Student "; }
 };
 class Staff : VIRTUAL public Person {
@@ -47,6 +48,7 @@ class Staff : VIRTUAL public Person {
 public:
  Staff(std::string n,int i,std::string p,std::string city,std::string d,double s)
  :Person(n,i,p,city),department(d),salary(s) { std::cout << "Staff "; }
+ double getSalary() const { return salary; }
  ~Staff() override { std::cout << "~Staff "; }
 };
 class TeachingAssistant : public Student, public Staff {
@@ -70,6 +72,7 @@ public:
  :
 #endif
  Student(n,i,p,city,"PhD",9.5,"Research"),fellowship(f) {}
+ double getFellowship() const { return fellowship; }
 };
 // Composition deliberately stores two distinct identities.
 struct ComposedTA { Student student; Staff staff; };

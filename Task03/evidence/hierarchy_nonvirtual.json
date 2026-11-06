@@ -1,0 +1,19 @@
+{
+  "source": "Task03/hierarchy.cpp",
+  "sha256": "fdbce2d5d610eeb91a48f0fcc3957c68c300ee2cf4cb09c0f62def4c7a7ee92e",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-DNONVIRTUAL",
+    "Task03/hierarchy.cpp",
+    "-o",
+    ".build/_Task03_hierarchy_nonvirtual"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:33.473864+00:00",
+  "run_exit": 0,
+  "environment": {}
+}
