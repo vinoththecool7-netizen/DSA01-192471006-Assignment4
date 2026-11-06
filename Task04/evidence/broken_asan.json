@@ -1,0 +1,21 @@
+{
+  "source": "Task04/broken.cpp",
+  "sha256": "8fefa597b038c550c4ee5b9bea2a2071654a843009f374adcf3f88101d9ce004",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-fsanitize=address",
+    "-g",
+    "-fno-omit-frame-pointer",
+    "Task04/broken.cpp",
+    "-o",
+    ".build/_Task04_broken_asan"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:34.988660+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

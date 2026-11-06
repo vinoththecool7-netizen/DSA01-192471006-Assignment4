@@ -1,0 +1,19 @@
+{
+  "source": "Task04/predict.cpp",
+  "sha256": "8595df7af8e2cb42b40ae2b85f717b42a9e1ace901642fc081c6d463e0f8cbc0",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task04/predict.cpp",
+    "-o",
+    ".build/_Task04_predict"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:29.056796+00:00",
+  "run_exit": 0,
+  "environment": {},
+  "exact_output_match": true
+}

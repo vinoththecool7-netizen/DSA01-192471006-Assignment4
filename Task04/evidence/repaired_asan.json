@@ -1,0 +1,20 @@
+{
+  "source": "Task04/repaired.cpp",
+  "sha256": "1fe3737e89a548c691705b20f28cc1003ac1f2a6aab9b96f0609910a96d80644",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-fsanitize=address",
+    "-g",
+    "Task04/repaired.cpp",
+    "-o",
+    ".build/_Task04_repaired_asan"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:36.624220+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

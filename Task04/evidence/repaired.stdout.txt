@@ -1,0 +1,11 @@
+3.5
+4
+~Account
+~SeniorAccount
+~Account
+RAII alternative
+3.5
+4
+~SeniorAccount
+~Account
+~Account
