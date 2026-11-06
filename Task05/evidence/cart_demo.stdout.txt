@@ -1,0 +1,3 @@
+Direct/pointer/reference total=162.00
+Highest=180.00
+Empty array, null entry, capacity and 100% discount checks passed

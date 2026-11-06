@@ -1,0 +1,18 @@
+{
+  "source": "Task05/cart_demo.cpp",
+  "sha256": "299e30f149919e4c4b4af5399b5d47096a0b1890018dc7478a271998ceadd404",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task05/cart_demo.cpp",
+    "-o",
+    ".build/_Task05_cart_demo"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:31.363567+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

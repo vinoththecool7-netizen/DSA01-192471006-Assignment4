@@ -1,0 +1,19 @@
+{
+  "source": "Task05/complete.cpp",
+  "sha256": "940b8b39d5f094deba1501145609a54b12fe4ccc6c0f74ed4b31e4b53492808d",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task05/complete.cpp",
+    "-o",
+    ".build/_Task05_complete"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:30.631890+00:00",
+  "run_exit": 0,
+  "environment": {},
+  "exact_output_match": true
+}
