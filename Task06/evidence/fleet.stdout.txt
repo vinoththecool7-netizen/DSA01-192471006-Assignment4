@@ -1,0 +1,27 @@
+B1 Bicycle available
+T1 TwoWheeler available
+C1 Car available
+E1 ElectricCar available
+EB1 ElectricBus available
+RENT B1 OK
+RENT T1 OK
+RENT C1 OK
+RENT E1 OK
+RENT EB1 OK
+ERROR B1 unavailable or invalid rental days
+RETURN B1 charge=325.00
+RETURN T1 charge=1500.00
+RETURN C1 charge=3750.00
+RETURN E1 charge=4100.00
+RETURN EB1 charge=10400.00
+ERROR B1 invalid return
+ERROR X1 unknown registration
+ERROR B1 unavailable or invalid rental days
+RENT B1 OK
+ERROR B1 invalid return
+RETURN B1 charge=100.00
+B1 Bicycle available
+T1 TwoWheeler available
+C1 Car available
+E1 ElectricCar available
+EB1 ElectricBus available

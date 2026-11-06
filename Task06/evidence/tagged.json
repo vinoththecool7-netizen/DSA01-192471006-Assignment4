@@ -1,0 +1,18 @@
+{
+  "source": "Task06/tagged.cpp",
+  "sha256": "960dca1996cabb28ce25b00a68224b05432758125da774f7c5edb86d965be0c3",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task06/tagged.cpp",
+    "-o",
+    ".build/_Task06_tagged"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:07:32.054691+00:00",
+  "run_exit": 0,
+  "environment": {}
+}

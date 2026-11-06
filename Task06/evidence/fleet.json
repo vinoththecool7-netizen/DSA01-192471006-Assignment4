@@ -1,0 +1,19 @@
+{
+  "source": "Task06/fleet.cpp",
+  "sha256": "a89b2b14ba51c22e2bfc9ccbec2e574f66c97f68ebc952a3fa5c3f762aff6056",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task06/fleet.cpp",
+    "-o",
+    ".build/_Task06_fleet"
+  ],
+  "compile_exit": 0,
+  "input": "Task06/input.txt",
+  "started_utc": "2026-11-06T07:07:32.775925+00:00",
+  "run_exit": 0,
+  "environment": {},
+  "independent_billing_and_error_checks": "passed"
+}
