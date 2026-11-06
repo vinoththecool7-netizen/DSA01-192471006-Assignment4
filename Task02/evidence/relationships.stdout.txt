@@ -1,0 +1,4 @@
+Student: Address(Salem) Person(Kavya) Course(OOP) Student ~Student ~Course ~Person ~Address 
+Staff: Address(Chennai) Person(Bala) Staff ~Staff ~Person ~Address 
+TeachingAssistant: Address(Salem) Person(Anu) Course(OOP) Student Staff TA ~TA ~Staff ~Student ~Course ~Person ~Address 
+sizeof Person=88 Student=152 Staff=128 TA=192 ComposedTA=280

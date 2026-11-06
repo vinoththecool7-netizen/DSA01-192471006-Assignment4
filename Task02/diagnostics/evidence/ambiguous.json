@@ -1,0 +1,18 @@
+{
+  "source": "Task02/diagnostics/ambiguous.cpp.txt",
+  "sha256": "00e22c669285e91306bccc35ab54ff2d4d2ac595876209aa0d96bfa354728378",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-x",
+    "c++",
+    "Task02/diagnostics/ambiguous.cpp.txt",
+    "-o",
+    ".build/Task02_diagnostics_ambiguous"
+  ],
+  "compile_exit": 1,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:05:31.627346+00:00"
+}

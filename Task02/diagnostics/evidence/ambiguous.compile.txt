@@ -1,0 +1,9 @@
+Task02/diagnostics/ambiguous.cpp.txt:5:46: error: non-static member 'id' found in multiple base-class subobjects of type 'Person':
+    struct TeachingAssistant -> Student -> Person
+    struct TeachingAssistant -> Staff -> Person
+    5 | int main() { TeachingAssistant ta; return ta.id; }
+      |                                              ^
+Task02/diagnostics/ambiguous.cpp.txt:1:21: note: member found by ambiguous name lookup
+    1 | struct Person { int id=1; };
+      |                     ^
+1 error generated.

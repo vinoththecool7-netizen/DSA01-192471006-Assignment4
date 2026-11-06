@@ -1,0 +1,19 @@
+{
+  "source": "Task02/predict_nonvirtual.cpp",
+  "sha256": "908592b477b95e00d4d8d2a7ec5ed856dccaf41e5c7833f285d9345a14bf74f1",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task02/predict_nonvirtual.cpp",
+    "-o",
+    ".build/_Task02_predict_nonvirtual"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:05:24.568123+00:00",
+  "run_exit": 0,
+  "environment": {},
+  "exact_output_match": true
+}

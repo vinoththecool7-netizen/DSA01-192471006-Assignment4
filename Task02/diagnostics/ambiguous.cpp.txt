@@ -1,0 +1,5 @@
+struct Person { int id=1; };
+struct Student : Person {};
+struct Staff : Person {};
+struct TeachingAssistant : Student, Staff {};
+int main() { TeachingAssistant ta; return ta.id; }

@@ -1,0 +1,3 @@
+Predicted stdout (JSON string preserves spaces):
+"Person Student Staff TA \n"
+Reason: Virtual Person is constructed once, then Student, Staff, TA.

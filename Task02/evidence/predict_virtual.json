@@ -1,0 +1,19 @@
+{
+  "source": "Task02/predict_virtual.cpp",
+  "sha256": "280e7a5a9de95999c533bc4b9e3bb048d31f75169621b6dcb9c98b5701288ba6",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task02/predict_virtual.cpp",
+    "-o",
+    ".build/_Task02_predict_virtual"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:05:24.131546+00:00",
+  "run_exit": 0,
+  "environment": {},
+  "exact_output_match": true
+}

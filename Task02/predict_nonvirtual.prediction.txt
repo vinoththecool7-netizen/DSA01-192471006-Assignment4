@@ -1,0 +1,3 @@
+Predicted stdout (JSON string preserves spaces):
+"Person Student Person Staff TA \n"
+Reason: Two Person bases; no error for construction alone. Unqualified access to a Person member would be ambiguous.

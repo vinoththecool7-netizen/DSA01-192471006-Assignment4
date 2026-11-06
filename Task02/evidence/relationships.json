@@ -1,0 +1,18 @@
+{
+  "source": "Task02/relationships.cpp",
+  "sha256": "76a78b33521dbd50f4c2d0a6685729453dc269536176a5ee83b5767b8b0db326",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task02/relationships.cpp",
+    "-o",
+    ".build/_Task02_relationships"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:05:25.020083+00:00",
+  "run_exit": 0,
+  "environment": {}
+}
