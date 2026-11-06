@@ -1,0 +1,4 @@
+1 Anu 76000.00
+2 Bala 28400.00
+3 Chitra 16000.00
+sizeof Professor=56 LabAssistant=48 GuestFaculty=56 TaggedStaff=72

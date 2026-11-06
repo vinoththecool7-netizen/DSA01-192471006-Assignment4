@@ -1,0 +1,18 @@
+{
+  "source": "Task01/payroll.cpp",
+  "sha256": "b0c18e8c3198cd2385a47b46518278aeb12caf8f097f1e67fad75c19f5f0105f",
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "Task01/payroll.cpp",
+    "-o",
+    ".build/_Task01_payroll"
+  ],
+  "compile_exit": 0,
+  "input": "embedded data; no stdin",
+  "started_utc": "2026-11-06T07:00:36.267183+00:00",
+  "run_exit": 0,
+  "environment": {}
+}
