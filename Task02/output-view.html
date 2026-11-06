@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><title>Task 2 execution records</title><style>body{font:16px system-ui;color:#182238;background:#f4f6fa;margin:32px;max-width:1200px}section{background:white;border:1px solid #bdc8d8;padding:20px;margin:20px 0}h1{font-size:28px}h2{font-size:21px}h3{font-size:16px}pre,code{font:14px monospace;white-space:pre-wrap;overflow-wrap:anywhere}pre{border-left:3px solid #4c6fba;padding:10px;background:#eef2f8}</style><h1>Task 02 - execution evidence</h1><p>Browser view of captured compiler and process output. This is an archived execution record, not a terminal screenshot.</p><section><h2>Task02/diagnostics/ambiguous.cpp.txt [ambiguous]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -x c++ Task02/diagnostics/ambiguous.cpp.txt -o .build/Task02_diagnostics_ambiguous</code></p><p>Compile exit: 1 | Run exit: not run | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>Task02/diagnostics/ambiguous.cpp.txt:5:46: error: non-static member &#x27;id&#x27; found in multiple base-class subobjects of type &#x27;Person&#x27;:
+    struct TeachingAssistant -&gt; Student -&gt; Person
+    struct TeachingAssistant -&gt; Staff -&gt; Person
+    5 | int main() { TeachingAssistant ta; return ta.id; }
+      |                                              ^
+Task02/diagnostics/ambiguous.cpp.txt:1:21: note: member found by ambiguous name lookup
+    1 | struct Person { int id=1; };
+      |                     ^
+1 error generated.
+</pre></section><section><h2>Task02/predict_nonvirtual.cpp [predict_nonvirtual]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task02/predict_nonvirtual.cpp -o .build/_Task02_predict_nonvirtual</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Person Student Person Staff TA 
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task02/predict_virtual.cpp [predict_virtual]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task02/predict_virtual.cpp -o .build/_Task02_predict_virtual</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Person Student Staff TA 
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task02/relationships.cpp [relationships]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task02/relationships.cpp -o .build/_Task02_relationships</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Student: Address(Salem) Person(Kavya) Course(OOP) Student ~Student ~Course ~Person ~Address 
+Staff: Address(Chennai) Person(Bala) Staff ~Staff ~Person ~Address 
+TeachingAssistant: Address(Salem) Person(Anu) Course(OOP) Student Staff TA ~TA ~Staff ~Student ~Course ~Person ~Address 
+sizeof Person=88 Student=152 Staff=128 TA=192 ComposedTA=280
+</pre><h3>stderr</h3><pre>(empty)</pre></section>

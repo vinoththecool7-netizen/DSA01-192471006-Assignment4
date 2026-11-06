@@ -1,0 +1,404 @@
+{
+  "compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)\nTarget: arm64-apple-darwin27.2.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "records": [
+    {
+      "source": "Task01/payroll.cpp",
+      "sha256": "b0c18e8c3198cd2385a47b46518278aeb12caf8f097f1e67fad75c19f5f0105f",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task01/payroll.cpp",
+        "-o",
+        ".build/_Task01_payroll"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:23.058410+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task02/predict_virtual.cpp",
+      "sha256": "280e7a5a9de95999c533bc4b9e3bb048d31f75169621b6dcb9c98b5701288ba6",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task02/predict_virtual.cpp",
+        "-o",
+        ".build/_Task02_predict_virtual"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:23.826842+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task02/predict_nonvirtual.cpp",
+      "sha256": "908592b477b95e00d4d8d2a7ec5ed856dccaf41e5c7833f285d9345a14bf74f1",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task02/predict_nonvirtual.cpp",
+        "-o",
+        ".build/_Task02_predict_nonvirtual"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:24.556034+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task02/relationships.cpp",
+      "sha256": "fdbce2d5d610eeb91a48f0fcc3957c68c300ee2cf4cb09c0f62def4c7a7ee92e",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task02/relationships.cpp",
+        "-o",
+        ".build/_Task02_relationships"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:25.400101+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task03/predict.cpp",
+      "sha256": "669e47a06f2d46fb5decec626a12211df233ac15ebc6d9cfb3973e585f401d8e",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task03/predict.cpp",
+        "-o",
+        ".build/_Task03_predict"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:26.117195+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task03/complete.cpp",
+      "sha256": "15f2ed809dc5a3417ac997d3c901a693968814cf56eab658343d959d8ce2fbd3",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task03/complete.cpp",
+        "-o",
+        ".build/_Task03_complete"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:26.845348+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task03/hierarchy.cpp",
+      "sha256": "fdbce2d5d610eeb91a48f0fcc3957c68c300ee2cf4cb09c0f62def4c7a7ee92e",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task03/hierarchy.cpp",
+        "-o",
+        ".build/_Task03_hierarchy"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:27.548274+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task03/address_pointer.cpp",
+      "sha256": "072f8e530f902da2bcf88698be089b612b177ce770b3561247389d85d40ce868",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task03/address_pointer.cpp",
+        "-o",
+        ".build/_Task03_address_pointer"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:28.347894+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task04/predict.cpp",
+      "sha256": "8595df7af8e2cb42b40ae2b85f717b42a9e1ace901642fc081c6d463e0f8cbc0",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task04/predict.cpp",
+        "-o",
+        ".build/_Task04_predict"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:29.056796+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task04/repaired.cpp",
+      "sha256": "1fe3737e89a548c691705b20f28cc1003ac1f2a6aab9b96f0609910a96d80644",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task04/repaired.cpp",
+        "-o",
+        ".build/_Task04_repaired"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:29.875728+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task05/complete.cpp",
+      "sha256": "940b8b39d5f094deba1501145609a54b12fe4ccc6c0f74ed4b31e4b53492808d",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task05/complete.cpp",
+        "-o",
+        ".build/_Task05_complete"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:30.631890+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "exact_output_match": true
+    },
+    {
+      "source": "Task05/cart_demo.cpp",
+      "sha256": "299e30f149919e4c4b4af5399b5d47096a0b1890018dc7478a271998ceadd404",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task05/cart_demo.cpp",
+        "-o",
+        ".build/_Task05_cart_demo"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:31.363567+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task06/tagged.cpp",
+      "sha256": "960dca1996cabb28ce25b00a68224b05432758125da774f7c5edb86d965be0c3",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task06/tagged.cpp",
+        "-o",
+        ".build/_Task06_tagged"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:32.054691+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task06/fleet.cpp",
+      "sha256": "a89b2b14ba51c22e2bfc9ccbec2e574f66c97f68ebc952a3fa5c3f762aff6056",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "Task06/fleet.cpp",
+        "-o",
+        ".build/_Task06_fleet"
+      ],
+      "compile_exit": 0,
+      "input": "Task06/input.txt",
+      "started_utc": "2026-11-06T07:07:32.775925+00:00",
+      "run_exit": 0,
+      "environment": {},
+      "independent_billing_and_error_checks": "passed"
+    },
+    {
+      "source": "Task03/hierarchy.cpp",
+      "sha256": "fdbce2d5d610eeb91a48f0fcc3957c68c300ee2cf4cb09c0f62def4c7a7ee92e",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-DNONVIRTUAL",
+        "Task03/hierarchy.cpp",
+        "-o",
+        ".build/_Task03_hierarchy_nonvirtual"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:33.473864+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task03/diagnostics/reordered.cpp.txt",
+      "sha256": "c5a2d27dc8568434e6b2e7cf3e9a018cb2ba238b2626a0d6d00aefa172efcf5f",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-x",
+        "c++",
+        "Task03/diagnostics/reordered.cpp.txt",
+        "-o",
+        ".build/Task03_diagnostics_reordered"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:34.209104+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task02/diagnostics/ambiguous.cpp.txt",
+      "sha256": "00e22c669285e91306bccc35ab54ff2d4d2ac595876209aa0d96bfa354728378",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-x",
+        "c++",
+        "Task02/diagnostics/ambiguous.cpp.txt",
+        "-o",
+        ".build/Task02_diagnostics_ambiguous"
+      ],
+      "compile_exit": 1,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:34.541008+00:00"
+    },
+    {
+      "source": "Task04/broken.cpp",
+      "sha256": "8fefa597b038c550c4ee5b9bea2a2071654a843009f374adcf3f88101d9ce004",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-fsanitize=address",
+        "-g",
+        "-fno-omit-frame-pointer",
+        "Task04/broken.cpp",
+        "-o",
+        ".build/_Task04_broken_asan"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:34.988660+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task04/broken.cpp",
+      "sha256": "8fefa597b038c550c4ee5b9bea2a2071654a843009f374adcf3f88101d9ce004",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-fsanitize=address",
+        "-g",
+        "Task04/broken.cpp",
+        "-o",
+        ".build/_Task04_broken_leak_probe"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:35.830450+00:00",
+      "run_exit": -6,
+      "environment": {
+        "ASAN_OPTIONS": "detect_leaks=1"
+      }
+    },
+    {
+      "source": "Task04/repaired.cpp",
+      "sha256": "1fe3737e89a548c691705b20f28cc1003ac1f2a6aab9b96f0609910a96d80644",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-fsanitize=address",
+        "-g",
+        "Task04/repaired.cpp",
+        "-o",
+        ".build/_Task04_repaired_asan"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:36.624220+00:00",
+      "run_exit": 0,
+      "environment": {}
+    },
+    {
+      "source": "Task03/address_pointer.cpp",
+      "sha256": "072f8e530f902da2bcf88698be089b612b177ce770b3561247389d85d40ce868",
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-fsanitize=address",
+        "-g",
+        "Task03/address_pointer.cpp",
+        "-o",
+        ".build/_Task03_address_pointer_asan"
+      ],
+      "compile_exit": 0,
+      "input": "embedded data; no stdin",
+      "started_utc": "2026-11-06T07:07:37.395767+00:00",
+      "run_exit": 0,
+      "environment": {}
+    }
+  ]
+}

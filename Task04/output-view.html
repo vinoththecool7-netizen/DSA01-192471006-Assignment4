@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8"><title>Task 4 execution records</title><style>body{font:16px system-ui;color:#182238;background:#f4f6fa;margin:32px;max-width:1200px}section{background:white;border:1px solid #bdc8d8;padding:20px;margin:20px 0}h1{font-size:28px}h2{font-size:21px}h3{font-size:16px}pre,code{font:14px monospace;white-space:pre-wrap;overflow-wrap:anywhere}pre{border-left:3px solid #4c6fba;padding:10px;background:#eef2f8}</style><h1>Task 04 - execution evidence</h1><p>Browser view of captured compiler and process output. This is an archived execution record, not a terminal screenshot.</p><section><h2>Task04/broken.cpp [broken_asan]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -fsanitize=address -g -fno-omit-frame-pointer Task04/broken.cpp -o .build/_Task04_broken_asan</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>3.5
+3.5
+~Account
+~Account
+~SeniorAccount
+~Account
+Sliced rate=3.5
+~Account
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task04/broken.cpp [broken_leak_probe]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -fsanitize=address -g Task04/broken.cpp -o .build/_Task04_broken_leak_probe</code></p><p>Compile exit: 0 | Run exit: -6 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>(empty)</pre><h3>stderr</h3><pre>==12939==AddressSanitizer: detect_leaks is not supported on this platform.
+</pre></section><section><h2>Task04/predict.cpp [predict]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task04/predict.cpp -o .build/_Task04_predict</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>3.5 4 3.5
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task04/repaired.cpp [repaired]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task04/repaired.cpp -o .build/_Task04_repaired</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>3.5
+4
+~Account
+~SeniorAccount
+~Account
+RAII alternative
+3.5
+4
+~SeniorAccount
+~Account
+~Account
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task04/repaired.cpp [repaired_asan]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -fsanitize=address -g Task04/repaired.cpp -o .build/_Task04_repaired_asan</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>3.5
+4
+~Account
+~SeniorAccount
+~Account
+RAII alternative
+3.5
+4
+~SeniorAccount
+~Account
+~Account
+</pre><h3>stderr</h3><pre>(empty)</pre></section>

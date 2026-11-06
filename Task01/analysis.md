@@ -4,7 +4,7 @@ The original classes repeat name, ID and basic salary, repeat the DA rule, expos
 
 Staff owns private name and ID and declares pure virtual pay() and a virtual destructor. SalariedStaff owns basic and supplies the protected salaryWithDA() helper with a named DA_RATE. Professor adds research, LabAssistant uses salaryWithDA(), and GuestFaculty owns hours and rate. All inheritance is public: each derived object is substitutable for Staff. See payroll.cpp for complete declarations and report/task01-uml.png for UML.
 
-## Design defence (57 words)
+## Design defence (under 100 words)
 
 The abstract Staff interface lets one loop calculate every payment through a base pointer. Shared identity belongs to Staff, while the salaried helper keeps the allowance rule in one place. A new category implements pay() and is registered in the collection. Existing payroll classes and the processing loop stay unchanged. Private data prevents unrelated code from silently changing payroll fields.
 

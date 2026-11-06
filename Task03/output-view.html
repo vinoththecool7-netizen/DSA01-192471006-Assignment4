@@ -1,0 +1,25 @@
+<!doctype html><meta charset="utf-8"><title>Task 3 execution records</title><style>body{font:16px system-ui;color:#182238;background:#f4f6fa;margin:32px;max-width:1200px}section{background:white;border:1px solid #bdc8d8;padding:20px;margin:20px 0}h1{font-size:28px}h2{font-size:21px}h3{font-size:16px}pre,code{font:14px monospace;white-space:pre-wrap;overflow-wrap:anywhere}pre{border-left:3px solid #4c6fba;padding:10px;background:#eef2f8}</style><h1>Task 03 - execution evidence</h1><p>Browser view of captured compiler and process output. This is an archived execution record, not a terminal screenshot.</p><section><h2>Task03/diagnostics/reordered.cpp.txt [reordered]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -x c++ Task03/diagnostics/reordered.cpp.txt -o .build/Task03_diagnostics_reordered</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>Task03/diagnostics/reordered.cpp.txt:22:8: warning: initializer order does not match the declaration order [-Wreorder-ctor]
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |        ^~~~~~~~~~            ~~~~~~~~~~~~
+      |        Person(n, a)          home(c, p)
+Task03/diagnostics/reordered.cpp.txt:22:8: note: field &#x27;home&#x27; will be initialized after field &#x27;regNo&#x27;
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |        ^~~~~~~~~~
+Task03/diagnostics/reordered.cpp.txt:22:20: note: field &#x27;regNo&#x27; will be initialized after base &#x27;Person&#x27;
+   22 |      : home(c, p), regNo(r), Person(n, a) {}
+      |                    ^~~~~~~~
+1 warning generated.
+</pre><h3>stdout</h3><pre>192311001 Kavya (19) Salem-636001
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/address_pointer.cpp [address_pointer]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task03/address_pointer.cpp -o .build/_Task03_address_pointer</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Deep copy, assignment, self-assignment, move and empty copy passed
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/address_pointer.cpp [address_pointer_asan]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -fsanitize=address -g Task03/address_pointer.cpp -o .build/_Task03_address_pointer_asan</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Deep copy, assignment, self-assignment, move and empty copy passed
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/complete.cpp [complete]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task03/complete.cpp -o .build/_Task03_complete</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>192311001 Kavya (19) Salem-636001
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/hierarchy.cpp [hierarchy]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task03/hierarchy.cpp -o .build/_Task03_hierarchy</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Student: Address(Salem) Person(Kavya) Course(OOP) Student ~Student ~Course ~Person ~Address 
+Staff: Address(Chennai) Person(Bala) Staff ~Staff ~Person ~Address 
+TeachingAssistant: Address(Salem) Person(Anu) Course(OOP) Student Staff TA ~TA ~Staff ~Student ~Course ~Person ~Address 
+sizeof Person=88 Student=152 Staff=128 TA=192 ComposedTA=280
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/hierarchy.cpp [hierarchy_nonvirtual]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra -DNONVIRTUAL Task03/hierarchy.cpp -o .build/_Task03_hierarchy_nonvirtual</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Student: Address(Salem) Person(Kavya) Course(OOP) Student ~Student ~Course ~Person ~Address 
+Staff: Address(Chennai) Person(Bala) Staff ~Staff ~Person ~Address 
+TeachingAssistant: Address(Salem) Person(Anu) Course(OOP) Student Address(Salem) Person(Anu) Staff TA ~TA ~Staff ~Person ~Address ~Student ~Course ~Person ~Address 
+sizeof Person=88 Student=144 Staff=120 TA=264 ComposedTA=264
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task03/predict.cpp [predict]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task03/predict.cpp -o .build/_Task03_predict</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Vehicle Engine Car | ~Car ~Engine ~Vehicle 
+</pre><h3>stderr</h3><pre>(empty)</pre></section>

@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-11-06T07:19:28.861713+00:00",
+  "source_digest_checks": 21,
+  "prediction_hashes_match": true,
+  "personal_home_paths_found": [],
+  "report_pages": 19,
+  "minimum_pdf_text_points": 10.999999999999943,
+  "diagram_label_points": 12,
+  "render_review": "All 19 final pages inspected as rendered contact sheets; no clipped text or overlaps observed.",
+  "screenshot_dimensions": {
+    "Task03/output-screenshot.jpg": [
+      1280,
+      3582
+    ],
+    "Task04/output-screenshot.jpg": [
+      1280,
+      2842
+    ],
+    "Task05/output-screenshot.jpg": [
+      1280,
+      1072
+    ],
+    "Task02/output-screenshot.jpg": [
+      1280,
+      1950
+    ],
+    "Task01/output-screenshot.jpg": [
+      1280,
+      720
+    ],
+    "Task06/output-screenshot.jpg": [
+      1280,
+      1468
+    ]
+  },
+  "sanitizer_limit": "Mac runtime rejects detect_leaks=1; no leak-detector result claimed."
+}

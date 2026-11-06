@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8"><title>Task 6 execution records</title><style>body{font:16px system-ui;color:#182238;background:#f4f6fa;margin:32px;max-width:1200px}section{background:white;border:1px solid #bdc8d8;padding:20px;margin:20px 0}h1{font-size:28px}h2{font-size:21px}h3{font-size:16px}pre,code{font:14px monospace;white-space:pre-wrap;overflow-wrap:anywhere}pre{border-left:3px solid #4c6fba;padding:10px;background:#eef2f8}</style><h1>Task 06 - execution evidence</h1><p>Browser view of captured compiler and process output. This is an archived execution record, not a terminal screenshot.</p><section><h2>Task06/fleet.cpp [fleet]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task06/fleet.cpp -o .build/_Task06_fleet</code></p><p>Compile exit: 0 | Run exit: 0 | Input: Task06/input.txt</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>B1 Bicycle available
+T1 TwoWheeler available
+C1 Car available
+E1 ElectricCar available
+EB1 ElectricBus available
+RENT B1 OK
+RENT T1 OK
+RENT C1 OK
+RENT E1 OK
+RENT EB1 OK
+ERROR B1 unavailable or invalid rental days
+RETURN B1 charge=325.00
+RETURN T1 charge=1500.00
+RETURN C1 charge=3750.00
+RETURN E1 charge=4100.00
+RETURN EB1 charge=10400.00
+ERROR B1 invalid return
+ERROR X1 unknown registration
+ERROR B1 unavailable or invalid rental days
+RENT B1 OK
+ERROR B1 invalid return
+RETURN B1 charge=100.00
+B1 Bicycle available
+T1 TwoWheeler available
+C1 Car available
+E1 ElectricCar available
+EB1 ElectricBus available
+</pre><h3>stderr</h3><pre>(empty)</pre></section><section><h2>Task06/tagged.cpp [tagged]</h2><p>Compile: <code>g++ -std=c++17 -Wall -Wextra Task06/tagged.cpp -o .build/_Task06_tagged</code></p><p>Compile exit: 0 | Run exit: 0 | Input: embedded data; no stdin</p><h3>Compiler diagnostics</h3><pre>(empty)</pre><h3>stdout</h3><pre>Bus charge before late fee=9650 sizeof TaggedVehicle=104
+</pre><h3>stderr</h3><pre>(empty)</pre></section>
